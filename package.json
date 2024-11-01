@@ -1,0 +1,17 @@
+{
+  "name": "integrations-reference-materials",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mrgnlabs/marginfi-client-v2": "^4.0.0",
+    "@mrgnlabs/mrgn-common": "^1.8.0",
+    "@solana/web3.js": "^1.95.4",
+    "fs": "^0.0.1-security"
+  }
+}
