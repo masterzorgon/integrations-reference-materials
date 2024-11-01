@@ -76,8 +76,8 @@ import {
     // Your app's wallet that will create and manage stake accounts
     const appWallet = Keypair.generate(); // In production, load your actual keypair
     
-    // Example validator vote account (replace with actual validator vote account)
-    const validatorVoteAccount = new PublicKey('YOUR_VALIDATOR_VOTE_ACCOUNT_ADDRESS');
+    // Example validator vote account (points to mrgn2 validator)
+    const validatorVoteAccount = new PublicKey('mrgn2vsZ5EJ8YEfAMNPXmRux7th9cNfBasQ1JJvVwPn');
     
     // Amount to stake in SOL
     const amountToStake = 1; // 1 SOL
@@ -98,5 +98,4 @@ import {
     }
   }
   
-  // Don't call main() directly in production - integrate with your app's logic
   main();
